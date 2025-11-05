@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G.C.C - Geospatial & Concept Consultancy</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #f9fcff;
+      color: #222;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(to right, #00b4ff, #0090cc);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header img {
+      width: 150px;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      animation: fadeIn 1.2s ease;
+    }
+    header h1 {
+      font-size: 2.5em;
+      letter-spacing: 2px;
+      animation: fadeInDown 1.2s ease;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+    section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #0077b6;
+      margin-bottom: 40px;
+      font-size: 2em;
+    }
+    .services, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+      animation: fadeIn 1s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+    .contact {
+      text-align: center;
+      background-color: #e7f6ff;
+      border-radius: 10px;
+      padding: 40px;
+      animation: fadeInUp 1.2s ease;
+    }
+    .contact p {
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+
+    @keyframes fadeInDown {
+      from {opacity: 0; transform: translateY(-40px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(40px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Logo added here -->
+    <img src="GEOSPACIAL (1).jpg" alt="GCC Logo">
+    <h1>Geospatial & Concept Consultancy (G.C.C)</h1>
+    <p>Innovative Mapping, Surveying & Engineering Solutions</p>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p style="text-align:center; max-width:800px; margin:auto; line-height:1.7;">
+      GCC is a professional Engineering and Topographic Surveying firm in consultancy services based in the world, especially in Kigali.
+      We specialise in Civil Engineering and Surveying works.<br><br>
+      Our mission is to deliver more accurate and efficient engineering solutions with integrity and innovation.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Main Services</h2>
+    <div class="services">
+      <div class="card">
+        <p>Providing Engineering consultancy services, Topographic survey services and focusing on the design.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Our Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Urban Mapping - Kigali</h3>
+        <p>High-precision GIS mapping for urban planning and infrastructure improvement.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="card">
+      <h3>Contact Info</h3>
+      <p>Email: <a href="mailto:consultancyc123@gmail.com">consultancyc123@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/geospatialconceptconsultancy" target="_blank">@geospatialconceptconsultancy</a></p>
+      <p>Phone: <a href="tel:+250788515022">+250 788 515 022</a></p>
+      <p>Address: Kigali - Gikondo, near Methodist Church</p>
+    </div>
+  </section>
+</body>
+</html>
